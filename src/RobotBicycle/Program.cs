@@ -1,6 +1,4 @@
-﻿using RobotBicycle.RobotModule;
-
-Console.WriteLine("Опытно - экспериментальный робот");
+﻿Console.WriteLine("Опытно - экспериментальный робот");
 
 
 

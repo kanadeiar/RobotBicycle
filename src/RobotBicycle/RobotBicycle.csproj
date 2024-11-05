@@ -11,4 +11,7 @@
       <Link>common\%(RecursiveDir)%(FileName)%(Extension)</Link>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="..\..\shared\common\Console\**" />
+  </ItemGroup>
 </Project>

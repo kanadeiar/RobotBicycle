@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CA2FA08A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotBicycleTests", "tests\RobotBicycleTests\RobotBicycleTests.csproj", "{5941648A-4638-4B07-B1E2-F48CC23DAF3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "src\Prototype\Prototype.csproj", "{97A5480A-A9E7-4E00-9A3C-A7654F1B8055}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{5941648A-4638-4B07-B1E2-F48CC23DAF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5941648A-4638-4B07-B1E2-F48CC23DAF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5941648A-4638-4B07-B1E2-F48CC23DAF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A5480A-A9E7-4E00-9A3C-A7654F1B8055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A5480A-A9E7-4E00-9A3C-A7654F1B8055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A5480A-A9E7-4E00-9A3C-A7654F1B8055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A5480A-A9E7-4E00-9A3C-A7654F1B8055}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4DC9D424-8BCB-45A3-868A-A7250569A9D4} = {C35B282A-8E8C-4690-ACA4-34852A65616A}
 		{5941648A-4638-4B07-B1E2-F48CC23DAF3D} = {CA2FA08A-4658-4DC4-A328-1A90F8B5D3AF}
+		{97A5480A-A9E7-4E00-9A3C-A7654F1B8055} = {C35B282A-8E8C-4690-ACA4-34852A65616A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4BC89E65-944F-498A-93E5-E6F9F0C6EB9E}

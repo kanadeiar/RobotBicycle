@@ -1,6 +1,6 @@
-﻿namespace RobotBicycleTests.RobotModule;
+namespace RobotAppTests;
 
-public class RobotTests
+public class SampleTests
 {
     [Fact]
     public void Test1()

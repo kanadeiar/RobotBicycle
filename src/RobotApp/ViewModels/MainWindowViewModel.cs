@@ -6,7 +6,7 @@ namespace RobotApp.ViewModels;
 
 public class MainWindowViewModel : Base.ViewModel
 {
-    private string _title = "Робот 'Велосипед'";
+    private string _title = "Управление роботом";
     /// <summary>
     /// Заголовок
     /// </summary>

@@ -1,5 +1,4 @@
 using AutoFixture.Xunit2;
-using FluentAssertions;
 using Kanadeiar.Tests;
 using Moq;
 

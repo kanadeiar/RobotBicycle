@@ -13,6 +13,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C35B282A-8E8C-4690-ACA4-34852A65616A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CA2FA08A-4658-4DC4-A328-1A90F8B5D3AF}"
+	ProjectSection(SolutionItems) = preProject
+		src\RobotCore\RobotModule\RobotBase.cs = src\RobotCore\RobotModule\RobotBase.cs
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotBicycleTests", "tests\RobotBicycleTests\RobotBicycleTests.csproj", "{5941648A-4638-4B07-B1E2-F48CC23DAF3D}"
 EndProject
@@ -24,9 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotAppTests", "tests\Robo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Archive", "Archive", "{CCD2528B-5E5C-43E7-84A2-CE9700DDE82D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotCore", "src\RobotCore\RobotCore.csproj", "{9763E36F-2BBC-4014-A53E-44A6231EB26D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotCore", "src\RobotCore\RobotCore.csproj", "{9763E36F-2BBC-4014-A53E-44A6231EB26D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotCoreTests", "tests\RobotCoreTests\RobotCoreTests.csproj", "{A0A1F1CA-5655-4523-A42F-284F8E1E3E32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotCoreTests", "tests\RobotCoreTests\RobotCoreTests.csproj", "{A0A1F1CA-5655-4523-A42F-284F8E1E3E32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

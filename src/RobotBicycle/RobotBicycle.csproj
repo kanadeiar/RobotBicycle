@@ -14,4 +14,7 @@
   <ItemGroup>
     <Compile Remove="..\..\shared\common\Console\**" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RobotCore\RobotCore.csproj" />
+  </ItemGroup>
 </Project>

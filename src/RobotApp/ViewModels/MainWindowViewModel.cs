@@ -6,26 +6,19 @@ namespace RobotApp.ViewModels;
 
 public class MainWindowViewModel : Base.ViewModel
 {
-    private string _title = "Управление роботом";
     /// <summary>
     /// Заголовок
     /// </summary>
     public string Title
     {
-        get => _title;
-        set => Set(ref _title, value);
-    }
-
-    public MainWindowViewModel()
-    {
-        
-    }
-
-    private ICommand? _closeAppCommand;
+        get;
+        set => Set(ref field, value);
+    } = "Управление роботом";
+    
     /// <summary>
     /// Закрыть приложение
     /// </summary>
-    public ICommand CloseAppCommand => _closeAppCommand ??=
+    public ICommand CloseAppCommand => field ??=
         new LambdaCommand(OnCloseAppCommandExecuted, CanCloseAppCommandExecute);
     private bool CanCloseAppCommandExecute(object? p) => true;
     private void OnCloseAppCommandExecuted(object? p)

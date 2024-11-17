@@ -13,9 +13,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C35B282A-8E8C-4690-ACA4-34852A65616A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CA2FA08A-4658-4DC4-A328-1A90F8B5D3AF}"
-	ProjectSection(SolutionItems) = preProject
-		src\RobotCore\RobotModule\RobotBase.cs = src\RobotCore\RobotModule\RobotBase.cs
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotBicycleTests", "tests\RobotBicycleTests\RobotBicycleTests.csproj", "{5941648A-4638-4B07-B1E2-F48CC23DAF3D}"
 EndProject
